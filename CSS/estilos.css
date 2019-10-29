@@ -1,0 +1,119 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background: burlywood;
+}
+
+header, section, footer {
+    width:90%;
+    max-width:1000px;
+    margin:20px auto;
+}
+
+header nav {
+    background: chocolate;
+    overflow: hidden;
+}
+
+header nav ul {
+    list-style:none;
+}
+
+header nav ul li 
+{
+    float:left;
+}
+header nav ul li a {
+    padding: 10px 20px;
+    display: block; 
+    color: white;
+    text-decoration: none;
+}
+
+header nav ul li a:hover{
+    background: black;
+}
+
+ .s1 article
+ {
+     width: 65.5%;
+     float: left;
+     background: #fff;
+     margin-right: 1.5%;
+     padding: 20px;
+     margin-bottom: 20px;
+
+ }
+
+ .n1  article
+ {
+float: left;
+width: 75%;
+
+ }
+
+ .n2 article {
+     float: left;
+     width: 10%;
+ }
+
+
+ aside{
+     width: 28%;
+     background: rgb(248, 226, 217);
+     float: left;
+    padding: 20px;
+    box-sizing: border-box;
+    font-size: 10px;
+ }
+
+ footer {
+     background: rgb(156, 103, 103);
+     color: white;
+     clear: both;
+     padding: 10px 0px;
+     text-align: center;
+
+ }
+
+ img { 
+     width: 100%;
+     height: 80%;
+ }
+
+ ul li 
+ {
+     list-style: none;
+    
+ }
+
+p { 
+    font-size: 18px;
+}
+
+a{
+    font-size: 20px;
+    color: darkred;
+    text-decoration: none;
+    margin: 10px 20px 10px 0px;
+}
+a:link{
+    color: gold; 
+}
+
+a:visited {
+    color: rgb(240, 210, 44) ;
+}
+
+a:hover { 
+    text-decoration: underline;
+    background: goldenrod;
+    color: greenyellow;
+}
+
+a:active{
+    background: orangered;
+}

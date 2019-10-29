@@ -1,0 +1,51 @@
+html
+{
+    background: rgb(240, 198, 162);
+} 
+form {
+    width: 25%;
+    border: 1px solid brown;
+    margin: 20px;
+    padding:20px;
+    background: seashell;
+}
+
+label {
+    font-size:12px;
+    display:block;
+    width:100%;
+}
+
+
+input, textarea {
+    margin-bottom:20px;
+    width:100%;
+    padding: 10px;
+box-sizing: border-box;
+border: 1px solid #cac;
+
+}
+input[type="submit"] 
+{
+margin-bottom:0;
+background:burlywood ;
+color: midnightblue;
+border:none;
+}
+
+input:focus, textarea:focus {
+    border: 1px solid #324;
+    background: silver;
+    color: tomato;
+}
+
+textarea{
+    resize: vertical; 
+    max-height:300px;
+    min-height:100px;
+}
+
+input[type="submit"]:hover {
+    background: rosybrown;
+    cursor: pointer;
+}
